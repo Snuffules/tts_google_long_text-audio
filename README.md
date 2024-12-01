@@ -87,10 +87,10 @@ These lines send the request to the API, wait for the operation to complete, and
 Usage Example
 ```python
 # Example usage
-text = read_text_file('DataPreprocessingTechniques.txt')
+text = read_text_file('your_text_file.txt')
 synthesize_long_audio(
     text,
-    'gs://your-bucket-name/DataPreprocessingTechniques.wav'
+    'gs://your-bucket-name/output.wav'
 )
 ```
 This example reads a text file and synthesizes it into an audio file stored in a Google Cloud Storage bucket.
