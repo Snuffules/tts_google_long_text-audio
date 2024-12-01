@@ -25,5 +25,5 @@ def synthesize_long_audio(text, output_gcs_uri):
     print("Audio synthesized and saved to:", output_gcs_uri)
 
 # Usage
-text = read_text_file('DataPreprocessingTechniques.txt')
-synthesize_long_audio(text, 'gs://long_audio_tts/DataPreprocessingTechniques.wav')
+text = read_text_file('your_text_file.txt')
+synthesize_long_audio(text, 'gs://long_audio_tts/output.wav')
