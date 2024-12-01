@@ -100,7 +100,7 @@ Replace 'your-project-id' with your actual Google Cloud project ID.
 Ensure your Google Cloud Storage bucket exists and you have write permissions.
 Run the script:
 ```bash
-python script_name.py
+python3 long_audio.py
 ```
 Notes
 This script is designed for long texts. For shorter texts (under 5000 bytes), consider using the standard Text-to-Speech API for faster processing.
