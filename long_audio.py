@@ -12,7 +12,7 @@ def synthesize_long_audio(text, output_gcs_uri):
     audio_config = texttospeech.AudioConfig(audio_encoding=texttospeech.AudioEncoding.LINEAR16)
 
     request = texttospeech.SynthesizeLongAudioRequest(
-        parent="projects/fifth-name-443410-d1/locations/global",
+        parent="projects/your-project-id/locations/global",
         input=input_text,
         voice=voice,
         audio_config=audio_config,
