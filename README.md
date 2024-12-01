@@ -8,11 +8,11 @@ Google Cloud Storage bucket for output
 Google Cloud SDK installed and configured
 Installation
 Install the required library:
-text
+bash
 pip install google-cloud-texttospeech
 
 Set up Google Cloud authentication:
-text
+bash
 gcloud auth application-default login
 
 Script Explanation
@@ -72,7 +72,7 @@ Usage
 Replace 'fifth-name-443410-d1' with your actual Google Cloud project ID.
 Ensure your Google Cloud Storage bucket exists and you have write permissions.
 Run the script:
-text
+bash
 python script_name.py
 
 Note
