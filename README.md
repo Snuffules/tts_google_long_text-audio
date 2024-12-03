@@ -19,8 +19,8 @@ Install the required library:
 
 ```bash
 pip install google-cloud-texttospeech
-Set up Google Cloud authentication:
 ```
+Set up Google Cloud authentication:
 ```bash
 gcloud auth application-default login
 ```
