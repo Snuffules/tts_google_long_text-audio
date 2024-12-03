@@ -1,5 +1,3 @@
-
-markdown
 # Google Cloud Text-to-Speech Long Audio Synthesis
 
 This script uses Google Cloud's Text-to-Speech API to convert long text files into audio files. It's designed to handle large texts that exceed the standard API's 5000-byte limit.
