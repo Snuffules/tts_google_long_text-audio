@@ -42,7 +42,7 @@ def synthesize_long_audio(text, output_gcs_uri):
 ```
 It takes two parameters:
 
-text: The input text to be converted to speech
+text: The input text to be converted to speech 
 output_gcs_uri: The Google Cloud Storage URI where the output audio file will be saved
 
 This line creates a client for the Long Audio Synthesis API.
