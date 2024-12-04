@@ -15,6 +15,8 @@ This script uses Google Cloud's Text-to-Speech API to convert long text files in
 ### Install the required library:
 
 ```bash
+apt update
+apt upgrade -y
 pip install google-cloud-texttospeech
 ```
 Set up Google Cloud authentication:
